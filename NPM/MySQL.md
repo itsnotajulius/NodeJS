@@ -139,6 +139,8 @@ connection.connect(function (err) {
 
   console.log("connected as id " + connection.threadId);
 });
+
+conection.end();
 ```
 
 However, a connection can also be implicitly established by invoking a query:
@@ -151,6 +153,8 @@ connection.query('SELECT 1', function (error, results, fields) {
   if (error) throw error;
   // connected!
 });
+
+conection.end();
 ```
 
 Depending on how you like to handle your errors, either method may be
