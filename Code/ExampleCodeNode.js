@@ -53,3 +53,42 @@ connection.query(q, function (error, results, fields) {
     console.log(results[i].created_at.toString());
   }
 });
+
+/*INSERTING DATA TAKE 1
+var q = "INSER INTO users(emails) VALUES (rusty@gamil.com)";
+
+connection.query(q, function (error, results, fields) {
+  if (error) throw error;
+  console.log("The solution is: ", results);
+});
+*/
+
+/*INSTERTING DATA TAKE 2
+var q = { email: "matjulgaming@gmail.com" };
+
+connection.query(
+  "INSERT INTO users SET ?",
+  q,
+  function (error, results, fields) {
+    if (error) throw error;
+    console.log("The solution is: ", results);
+  }
+);
+*/
+
+//INSERTING DATA TAKE 3
+var s = "SELECT * FROM users";
+var insertStatmenmt = "INSERT INTO users SET ?";
+var person = { email: faker.internet.email() };
+
+connection.query(insertStatmenmt, person, function (error, results, fields) {
+  if (error) throw error;
+});
+
+connection.query(s, function (error, results, fields) {
+  if (error) throw error;
+  for (var i = 0; i < results.length; i++) {
+    console.log(results[i].email);
+  }
+  console.log(results.length);
+});
