@@ -10,6 +10,8 @@
 </br>
 <h3>Getting Packages From registry:</h3>
 
+Searching for package:
+
 ```js
 var projectName = require("@scope/package-name");
 ```
