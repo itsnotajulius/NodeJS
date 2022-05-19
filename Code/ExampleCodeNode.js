@@ -40,3 +40,15 @@ connection.query(q, function (error, results, fields) {
   console.log(results[0].date);
   console.log(results[0].now);
 });
+
+const q = "SELECT * FROM users ";
+
+//Querying the database
+connection.query(q, function (error, results, fields) {
+  if (error) throw error;
+  console.log("The solution is: ");
+  for (i = 0; i < results.length; i++) {
+    console.log(results[i].email);
+    console.log(results[i].created_at.toString());
+  }
+});
