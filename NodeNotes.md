@@ -6,3 +6,10 @@
 
 - Run node in comLine:
   > node appName.js
+
+</br>
+<h3>Getting Packages From registry:</h3>
+
+```js
+var projectName = require("@scope/package-name");
+```
