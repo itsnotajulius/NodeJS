@@ -114,11 +114,10 @@ connection.query("SELECT 1 + 1 AS solution", function (error, results, fields) {
 connection.end();
 ```
 
-From this example, you can learn the following:
-
 - Every method you invoke on a connection is queued and executed in sequence.
-- Closing the connection is done using `end()` which makes sure all remaining
-  queries are executed before sending a quit packet to the mysql server.
+- Closing the connection is done using `end()`
+
+<br>
 
 ## Establishing connections
 
