@@ -163,6 +163,7 @@ information.
 ## Connection options
 
 When establishing a connection, you can set the following options:
+var connection = mysql.createConnection(
 
 - `host`: The hostname of the database you are connecting to. (Default:
   `localhost`)
