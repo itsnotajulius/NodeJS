@@ -158,6 +158,8 @@ appropriate. Any type of connection error (handshake or network) is considered
 a fatal error, see the [Error Handling](#error-handling) section for more
 information.
 
+</br></br>
+
 ## Connection options
 
 When establishing a connection, you can set the following options:
