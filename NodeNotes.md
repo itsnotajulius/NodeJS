@@ -12,6 +12,8 @@
 
 Searching for package:
 
+Using the packages in Node
+
 ```js
 var projectName = require("@scope/package-name");
 ```
