@@ -21,5 +21,5 @@ var projectName = require("@scope/package-name");
 Start Connection:
 
 ```js
-
+var connection = mysql.createConnection(..Connection Options...);
 ```
