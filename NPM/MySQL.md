@@ -11,9 +11,6 @@
 
 - [Install](#install)
 - [Introduction](#introduction)
-- [Contributors](#contributors)
-- [Sponsors](#sponsors)
-- [Community](#community)
 - [Establishing connections](#establishing-connections)
 - [Connection options](#connection-options)
   - [SSL options](#ssl-options)
@@ -122,42 +119,6 @@ From this example, you can learn the following:
 - Every method you invoke on a connection is queued and executed in sequence.
 - Closing the connection is done using `end()` which makes sure all remaining
   queries are executed before sending a quit packet to the mysql server.
-
-## Contributors
-
-Thanks goes to the people who have contributed code to this module, see the
-[GitHub Contributors page][].
-
-[github contributors page]: https://github.com/mysqljs/mysql/graphs/contributors
-
-Additionally I'd like to thank the following people:
-
-- [Andrey Hristov][] (Oracle) - for helping me with protocol questions.
-- [Ulf Wendel][] (Oracle) - for helping me with protocol questions.
-
-[ulf wendel]: http://blog.ulf-wendel.de/
-[andrey hristov]: http://andrey.hristov.com/
-
-## Sponsors
-
-The following companies have supported this project financially, allowing me to
-spend more time on it (ordered by time of contribution):
-
-- [Transloadit](http://transloadit.com) (my startup, we do file uploading &
-  video encoding as a service, check it out)
-- [Joyent](http://www.joyent.com/)
-- [pinkbike.com](http://pinkbike.com/)
-- [Holiday Extras](https://www.holidayextras.com/) (they are [hiring](https://join.holidayextras.co.uk/))
-- [Newscope](http://newscope.com/) (they are [hiring](https://newscope.com/unternehmen/jobs/))
-
-## Community
-
-If you'd like to discuss this module, or ask questions about it, please use one
-of the following:
-
-- **Mailing list**: https://groups.google.com/forum/#!forum/node-mysql
-- **IRC Channel**: #node.js (on freenode.net, I pay attention to any message
-  including the term `mysql`)
 
 ## Establishing connections
 
