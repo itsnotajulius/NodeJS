@@ -229,6 +229,8 @@ var connection = mysql.createConnection(
 Note: The query values are first attempted to be parsed as JSON, and if that
 fails assumed to be plaintext strings.
 
+</br></br>
+
 ### SSL options
 
 The `ssl` option in the connection options takes a string or an object. When given a string,
@@ -347,6 +349,9 @@ The following flags are available:
   the flag has no effect. (Default off)
 - `TRANSACTIONS` - Asks for the transaction status flags. (Default on)
 
+</br>
+</br><br>
+
 ## Terminating connections
 
 There are two ways to end a connection. Terminating a connection gracefully is
@@ -358,21 +363,23 @@ connection.end(function (err) {
 });
 ```
 
-This will make sure all previously enqueued queries are still executed before
+Sures previous enqueued queries are still executed before
 sending a `COM_QUIT` packet to the MySQL server. If a fatal error occurs before
-the `COM_QUIT` packet can be sent, an `err` argument will be provided to the
-callback, but the connection will be terminated regardless of that.
+the `COM_QUIT` sent, an `err` argument will be provided to the
+callback, but the connection will be terminated regardless.
 
 An alternative way to end the connection is to call the `destroy()` method.
-This will cause an immediate termination of the underlying socket.
-Additionally `destroy()` guarantees that no more events or callbacks will be
-triggered for the connection.
+This will cause an immediate termination of underlying socket.
+No more events or callbacks will be triggered for the connection.
 
 ```js
 connection.destroy();
 ```
 
-Unlike `end()` the `destroy()` method does not take a callback argument.
+Unlike `end()` the `destroy()` method has no callback argument.
+
+</br>
+</br><br>
 
 ## Pooling connections
 
