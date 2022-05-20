@@ -11,13 +11,20 @@
 - Run node in comLine:
   > node appName.js
 
+<br>
+
 <div>
   <h3>About Packages and Modules:</h3>
   <p>npm registry contains packages, many of which are also Node modules, or contain Node modules.</p>
 
   </br>
+</div>
 
-  <h3>Getting Packages From registry:</h3>
+<div>
+  
+</div>
+
+<h3>Getting Packages From registry:</h3>
 
 ---
 
