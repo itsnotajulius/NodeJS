@@ -64,14 +64,14 @@
 <br><br>
 
 <h3>About modules</h3>
-<p>A <b>module</b> is any file or directory in the node_modules directory that can be loaded by the Node.js require() function.</p>
+<p>A <b><span style ="color: #4d4dff">module</span> </b> is any file or directory in the node_modules directory that can be loaded by the Node.js require() function.</p>
 
 To be loaded by the Node.js require() function, a module must be one of the following:
 
 - A folder with a package.json file containing a "main" field.
 - A JavaScript file.
 
-**Note:** <span color:#4d4dff>Modules</span> don't need <span style ="color:#DDA0DD">package.json</span> file, not all modules are packages, only those with `package.json` file are.
+**Note:** <span style ="color: #4d4dff">Modules</span> don't need <span style ="color:#DDA0DD">package.json</span> file, not all <span style ="color: #4d4dff">modules</span> are <span style ="color:#DDA0DD">packages</span>, only those with <span style ="color:#DDA0DD">package.json</span> file are.
 
 In the context of a Node program, the module is also the thing that was loaded from a file. For example, in the following program:
 
