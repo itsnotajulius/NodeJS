@@ -381,7 +381,7 @@ Unlike `end()` the `destroy()` method has no callback argument.
 </br>
 </br><br>
 
-## Pooling connections
+## Poolin♣g connections
 
 Rather than creating and managing connections one-by-one, this module also
 provides built-in connection pooling using `mysql.createPool(config)`.
