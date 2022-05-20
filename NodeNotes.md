@@ -68,8 +68,8 @@
 
 To be loaded by the Node.js require() function, a module must be one of the following:
 
-    A folder with a package.json file containing a "main" field.
-    A JavaScript file.
+    * A folder with a package.json file containing a "main" field.
+    * A JavaScript file.
 
 **Note:** Since modules are not required to have a `package.json` file, not all modules are packages. Only modules that have a `package.json` file are also packages.
 
