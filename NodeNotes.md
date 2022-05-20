@@ -20,7 +20,9 @@
     <p>A <b>package</b> is a file or directory that is described by a <span style ="color:#DDA0DD">package.json</span> file. A package must contain a <span style ="color:#DDA0DD">package.json</span> file in order to be published to the npm registry.</p>
     <p>Packages can be unscoped or scoped to a user or organization, and scoped packages can be private or public.</p>
   <div>
-  
+</div>
+
+<div>
 </div>
 
 <h3>Getting Packages From registry:</h3>
