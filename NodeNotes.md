@@ -7,6 +7,8 @@
 - Run node in comLine:
   > node appName.js
 
+<h3>About Packages and Modules:</h3>
+
 </br>
 <h3>Getting Packages From registry:</h3>
 
