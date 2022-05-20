@@ -91,9 +91,10 @@ var req = require($module);
 
 <p>Scopes allow you to create a package<span style ="font-size:80%; color: yellow" >(even if package was made by other user)</span> without conflict</p>
 The scope name is everything between the @ and the slash:
-```js
 
-````
+```js
+  @scope/package-name
+```
 
 <br><br><br><br><br><br>
 
@@ -105,7 +106,7 @@ Using the packages in Node
 
 ```js
 var projectName = require("@scope/package-name");
-````
+```
 
 Start Connection:
 
