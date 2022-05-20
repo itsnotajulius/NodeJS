@@ -128,9 +128,12 @@ connection.query(s, function (error, results, fields) {
   console.log(results);
 });
 
-//Showing Earliest User
+//Earliest creation
 var q =
-  "SELECT created_at AS ealiest_date FROM users ORDER BY ealiest_date LIMIT 1";
+  "SELECT DATE_FORMAT(MIN(created_at), '%M %D %Y') as earliest_date FROM users";
+
+//Showing Earliest User
+var q = "SELECT * FROM users ORDER BY ealiest_date LIMIT 1";
 
 connection.query(q, function (error, results, fields) {
   if (error) throw error;
