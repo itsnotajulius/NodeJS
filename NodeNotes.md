@@ -39,6 +39,14 @@
 <div>
   
   <span>A package is any of the following:</span>
+  1. A folder containing a program described by a package.json file.
+  2. A gzipped tarball containing (a).
+  3. A URL that resolves to (b).
+  4. A <name>@<version> that is published on the registry with (c).
+  5. A <name>@<tag> that points to (d).
+  6. A <name> that has a latest tag satisfying (e).
+  7. A git url that, when cloned, results in (a).
+
 </div>
 
 <br><br><br><br><br><br>
