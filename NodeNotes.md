@@ -40,12 +40,29 @@
   
   <span>A package is any of the following:</span>
   1. A folder containing a program described by a <span style ="color:#DDA0DD">package.json</span> file.
-  2. A gzipped tarball containing (a).
-  3. A URL that resolves to (b).
-  4. A <name>@<version> that is published on the registry with (c).
-  5. A <name>@<tag> that points to (d).
-  6. A <name> that has a latest tag satisfying (e).
-  7. A git url that, when cloned, results in (a).
+  2. A gzipped tarball containing (1).
+  3. A URL that resolves to (2).
+  4. A "name"@"version" that is published on the registry with (3).
+  5. A "name"@"tag" that points to (4).
+  6. A "name" that has a latest tag satisfying (5).
+  7. A git url that, when cloned, results in (1).
+
+</div>
+
+<h3>About Package formats</h3>
+
+---
+
+<div>
+  
+  <span>A package is any of the following:</span>
+  1. A folder containing a program described by a <span style ="color:#DDA0DD">package.json</span> file.
+  2. A gzipped tarball containing (1).
+  3. A URL that resolves to (2).
+  4. A "name"@"version" that is published on the registry with (3).
+  5. A "name"@"tag" that points to (4).
+  6. A "name" that has a latest tag satisfying (5).
+  7. A git url that, when cloned, results in (1).
 
 </div>
 
