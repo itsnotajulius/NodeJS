@@ -34,8 +34,6 @@
 
 <h4>About Package formats</h4>
 
----
-
 <div>
   
   <span>A package is any of the following:</span>
@@ -49,9 +47,9 @@
 
 </div>
 
-<h4>npm package git URL formats</h4>
+<br>
 
----
+<h4>npm package git URL formats</h4>
 
 <div>
   
@@ -63,7 +61,19 @@
 
 </div>
 
+<br><br>
+
 <h3>About modules</h3>
+A module is any file or directory in the node_modules directory that can be loaded by the Node.js require() function.
+
+To be loaded by the Node.js require() function, a module must be one of the following:
+
+    A folder with a package.json file containing a "main" field.
+    A JavaScript file.
+
+**Note:** Since modules are not required to have a `package.json` file, not all modules are packages. Only modules that have a `package.json` file are also packages.
+
+In the context of a Node program, the module is also the thing that was loaded from a file. For example, in the following program:
 
 <br><br><br><br><br><br>
 
