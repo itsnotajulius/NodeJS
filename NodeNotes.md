@@ -100,6 +100,7 @@ Tips:
 
 - Unscoped packages are PUBLIC
 - PRIVATE packages are always scoped
+- Scoped packages are private by default; you must make them public.
 
 <br><br><br><br><br><br>
 
