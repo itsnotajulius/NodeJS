@@ -102,7 +102,9 @@ Tips:
 - PRIVATE packages are always scoped
 - **Scoped packages are private by default; you must make them public.**
 
-<br><br><br><br><br><br>
+<br>
+
+<br><br><br><br><br>
 
 <h3>Getting Packages From registry:</h3>
 
@@ -120,4 +122,9 @@ Start Connection:
 var connection = mysql.createConnection(..Connection Options...);
 ```
 
+</div>
+
+<h3>Resources</h3>
+<div>
+  
 </div>
