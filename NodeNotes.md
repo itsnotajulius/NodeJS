@@ -64,7 +64,7 @@
 <br><br>
 
 <h3>About modules</h3>
-A module is any file or directory in the node_modules directory that can be loaded by the Node.js require() function.
+A <b>module</b> is any file or directory in the node_modules directory that can be loaded by the Node.js require() function.
 
 To be loaded by the Node.js require() function, a module must be one of the following:
 
