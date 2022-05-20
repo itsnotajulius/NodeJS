@@ -12,10 +12,10 @@
   > node appName.js
 
 <div>
-<h3>About Packages and Modules:</h3>
-<p>npm registry contains packages, many of which are also Node modules, or contain Node modules.</p>
-</br>
-<h3>Getting Packages From registry:</h3>
+  <h3>About Packages and Modules:</h3>
+  <p>npm registry contains packages, many of which are also Node modules, or contain Node modules.</p>
+  </br>
+  <h3>Getting Packages From registry:</h3>
 
 ---
 
