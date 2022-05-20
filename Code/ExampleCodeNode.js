@@ -127,3 +127,12 @@ connection.query(s, function (error, results, fields) {
   if (error) throw error;
   console.log(results);
 });
+
+//Showing Earliest User
+var q =
+  "SELECT created_at AS ealiest_date FROM users ORDER BY ealiest_date LIMIT 1";
+
+connection.query(q, function (error, results, fields) {
+  if (error) throw error;
+  console.log(results);
+});
