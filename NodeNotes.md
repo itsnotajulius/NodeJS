@@ -39,7 +39,7 @@
 <div>
   
   <span>A package is any of the following:</span>
-  1. A folder containing a program described by a package.json file.
+  1. A folder containing a program described by a <span style ="color:#DDA0DD">package.json</span> file.
   2. A gzipped tarball containing (a).
   3. A URL that resolves to (b).
   4. A <name>@<version> that is published on the registry with (c).
