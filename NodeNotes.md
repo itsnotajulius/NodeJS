@@ -26,9 +26,9 @@
   <div>
 </div>
 
-- <a href = >bout Scopes
-- About Private packages
-- Packages scope, access level and visibilty
+- <a href = https://docs.npmjs.com/about-scopes>About Scopes</a>
+- <a href = https://docs.npmjs.com/about-scopes>About Private packages</a>
+- Packages scope, access level and visibilty</a>
 
 <br>
 
