@@ -154,5 +154,8 @@ var q = "SELECT COUNT(*) AS yahoo_users FROM users WHERE email LIKE ?";
 var likie = "%yahoo%";
 
 //Getting different types of emails
-var q = "SELECT CASE WHEN email LIKE ? THEN 'gmail' WHEN ";
-var likie = "%yahoo%";
+var q =
+  "SELECT CASE WHEN email LIKE ? THEN 'gmail' WHEN email LIKE ? THEN 'yahoo' WHEN email LIKE ? THEN 'hotmail' ELSE 'other' END AS provider,COUNT(*) AS total_users FROM users GROUP BY provider ORDER BY total_users DESC";
+var $gmail = "%gmail%";
+var $yahoo = "%yahoo%";
+var $hotmail = "%hotmail%";
