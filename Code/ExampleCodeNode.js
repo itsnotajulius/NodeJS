@@ -133,7 +133,7 @@ var q =
   "SELECT DATE_FORMAT(MIN(created_at), '%M %D %Y') as earliest_date FROM users";
 
 //Showing Earliest User
-var q = "SELECT * FROM users ORDER BY ealiest_date LIMIT 1";
+var q = "SELECT * FROM users ORDER BY created_at LIMIT 1";
 
 connection.query(q, function (error, results, fields) {
   if (error) throw error;
