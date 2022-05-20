@@ -155,5 +155,5 @@ var likie = "%yahoo%";
 
 //Getting different types of emails
 var q =
-  "SELECT CASE WHEN email LIKE ? THEN  WHENAS yahoo_users FROM users WHERE email LIKE ?";
+  "SELECT CASE WHEN email LIKE ? THEN 'em' WHENAS yahoo_users FROM users WHERE email LIKE ?";
 var likie = "%yahoo%";
