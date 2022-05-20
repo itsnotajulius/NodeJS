@@ -26,7 +26,7 @@
   <div>
 </div>
 
-- About Scopes
+- <a href = >bout Scopes
 - About Private packages
 - Packages scope, access level and visibilty
 
