@@ -96,6 +96,11 @@ The scope name is everything between the @ and the slash:
   @scope/package-name
 ```
 
+Tips:
+
+- Unscoped packages are PUBLIC
+-
+
 <br><br><br><br><br><br>
 
 <h3>Getting Packages From registry:</h3>
