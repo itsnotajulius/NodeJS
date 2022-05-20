@@ -68,6 +68,9 @@
 <br><br>
 
 <h3>About modules</h3>
+
+---
+
 <p>A <b><span style ="color: #4d4dff">module</span> </b> is any file or directory in the node_modules directory that can be loaded by the Node.js require() function.</p>
 
 To be loaded by the Node.js require() function, a module must be one of the following:
