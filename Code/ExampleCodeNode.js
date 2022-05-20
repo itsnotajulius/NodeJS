@@ -136,3 +136,12 @@ connection.query(q, function (error, results, fields) {
   if (error) throw error;
   console.log(results);
 });
+
+//Showing user created count per month
+var q =
+  "SELECT MONTHNAME(created_at) AS month, COUNT(*) AS count FROM users GROUP BY month ORDER BY count DESC";
+
+connection.query(q, function (error, results, fields) {
+  if (error) throw error;
+  console.log(results);
+});
