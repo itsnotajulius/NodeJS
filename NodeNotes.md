@@ -11,8 +11,12 @@
 
 <br>
 
+<h3>About Packages and Modules:</h3>
+
+---
+
 <div>
-  <h3>About Packages and Modules:</h3>
+  
   <p>npm registry contains packages, many of which are also Node modules, or contain Node modules.</p>
 
   </br>
