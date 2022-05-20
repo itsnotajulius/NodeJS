@@ -26,6 +26,8 @@
   <div>
 </div>
 
+<br>
+
 <h3>About Package formats</h3>
 
 ---
@@ -34,6 +36,8 @@
   
   <span>A package is any of the following:</span>
 </div>
+
+<br><br><br><br><br><br>
 
 <h3>Getting Packages From registry:</h3>
 
