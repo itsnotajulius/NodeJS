@@ -87,6 +87,8 @@ var req = require($module);
 
 ---
 
+<p>Scopes allow you to create a package<span style ="font-size:1">(even if package was made by other user)</span> without conflict</p>
+
 - Upgrade NPM
 
   ```js
