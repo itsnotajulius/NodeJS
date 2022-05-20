@@ -10,11 +10,11 @@
 
 - Run node in comLine:
   > node appName.js
-
-<h3>About Packages and Modules:</h3>
-<p>npm registry contains packages, many of which are also Node modules, or contain Node modules.</p>
-</br>
-<h3>Getting Packages From registry:</h3>
+  <div>
+  <h3>About Packages and Modules:</h3>
+  <p>npm registry contains packages, many of which are also Node modules, or contain Node modules.</p>
+  </br>
+  <h3>Getting Packages From registry:</h3>
 
 ---
 
@@ -31,3 +31,5 @@ Start Connection:
 ```js
 var connection = mysql.createConnection(..Connection Options...);
 ```
+
+</div>
