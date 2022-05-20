@@ -73,7 +73,11 @@ To be loaded by the Node.js require() function, a module must be one of the foll
 
 **Note:** <span style ="color: #4d4dff">Modules</span> don't need <span style ="color:#DDA0DD">package.json</span> file, not all <span style ="color: #4d4dff">modules</span> are <span style ="color:#DDA0DD">packages</span>, only those with <span style ="color:#DDA0DD">package.json</span> file are.
 
-In the context of a Node program, the module is also the thing that was loaded from a file. For example, in the following program:
+For example, in the following program:
+
+```js
+var req = require($module);
+```
 
 <br><br><br><br><br><br>
 
