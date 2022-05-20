@@ -26,6 +26,10 @@
   <div>
 </div>
 
+- About Scopes
+- About Private packages
+- Packages scope, access level and visibilty
+
 <br>
 
 <h3>About Package formats</h3>
