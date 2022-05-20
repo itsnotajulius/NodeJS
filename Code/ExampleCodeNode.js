@@ -154,5 +154,6 @@ var q = "SELECT COUNT(*) AS yahoo_users FROM users WHERE email LIKE ?";
 var likie = "%yahoo%";
 
 //Getting different types of emails
-var q = "SELECT CASE AS yahoo_users FROM users WHERE email LIKE ?";
+var q =
+  "SELECT CASE WHEN email LIKE ? AS yahoo_users FROM users WHERE email LIKE ?";
 var likie = "%yahoo%";
