@@ -49,7 +49,7 @@
 
 </div>
 
-<h3>About Package formats</h3>
+<h3>npm package git URL formats</h3>
 
 ---
 
