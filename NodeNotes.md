@@ -32,7 +32,7 @@
 
 <br>
 
-<h3>About Package formats</h3>
+<h4>About Package formats</h4>
 
 ---
 
@@ -49,20 +49,21 @@
 
 </div>
 
-<h3>npm package git URL formats</h3>
+<h4>npm package git URL formats</h4>
 
 ---
 
 <div>
   
   <span>Git URLs used for npm packages can be formatted in the following ways:</span>
-    git://github.com/user/project.git#commit-ish
-    git+ssh://user@hostname:project.git#commit-ish
-    git+http://user@hostname/project/blah.git#commit-ish
-    git+https://user@hostname/project/blah.git#commit-ish
+  * git://github.com/user/project.git#commit-ish
+  * git+ssh://user@hostname:project.git#commit-ish
+  * git+http://user@hostname/project/blah.git#commit-ish
+  * git+https://user@hostname/project/blah.git#commit-ish
 
 </div>
 
+<h3></h3>
 <br><br><br><br><br><br>
 
 <h3>Getting Packages From registry:</h3>
