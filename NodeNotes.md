@@ -8,6 +8,8 @@
 
 - Run node in comLine:
   > node appName.js
+- Upgrade NPM
+  > npm install npm@latest -g
 
 <br>
 
@@ -88,12 +90,7 @@ var req = require($module);
 ---
 
 <p>Scopes allow you to create a package<span style ="font-size:80%; color: yellow" >(even if package was made by other user)</span> without conflict</p>
-
-- Upgrade NPM
-
-  ```js
-  npm install npm@latest -g
-  ```
+The scope name is everything between the @ and the slash:
 
 <br><br><br><br><br><br>
 
