@@ -89,6 +89,8 @@ var req = require($module);
 
 - Upgrade NPM
 
+````js
+
 <br><br><br><br><br><br>
 
 <h3>Getting Packages From registry:</h3>
@@ -99,7 +101,7 @@ Using the packages in Node
 
 ```js
 var projectName = require("@scope/package-name");
-```
+````
 
 Start Connection:
 
