@@ -89,9 +89,9 @@ var req = require($module);
 
 - Upgrade NPM
 
-      ```js
-            npm install npm@latest -g
-      ```
+  ```js
+  npm install npm@latest -g
+  ```
 
 <br><br><br><br><br><br>
 
