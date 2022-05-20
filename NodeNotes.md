@@ -55,7 +55,7 @@
 
 <div>
   
-  <span>A package is any of the following:</span>
+  <span>Git URLs used for npm packages can be formatted in the following ways:</span>
   1. A folder containing a program described by a <span style ="color:#DDA0DD">package.json</span> file.
   2. A gzipped tarball containing (1).
   3. A URL that resolves to (2).
