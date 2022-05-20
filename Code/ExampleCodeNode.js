@@ -146,5 +146,9 @@ connection.query(q, function (error, results, fields) {
   console.log(results);
 });
 
-//Getting email that has yahoo in it
+//Getting email that has yahoo in it Take 1
 var q = "SELECT COUNT(*) AS yahoo_users FROM users WHERE email LIKE '%yahoo%'";
+
+//Getting email that has yahoo in it Take 2
+var q = "SELECT COUNT(*) AS yahoo_users FROM users WHERE email LIKE ?";
+var likie = "%yahoo%";
