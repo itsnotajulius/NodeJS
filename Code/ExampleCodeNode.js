@@ -134,6 +134,9 @@ var q =
 
 //Showing Earliest User
 var q = "SELECT * FROM users ORDER BY created_at LIMIT 1";
+or;
+var q =
+  "SELECT * FROM   users WHERE  created_at = (SELECT Min(created_at) FROM   users)";
 
 connection.query(q, function (error, results, fields) {
   if (error) throw error;
