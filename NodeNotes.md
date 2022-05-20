@@ -22,12 +22,16 @@
   <div>
 </div>
 
+<h3>About Package formats</h3>
+
+---
+
 <div>
+  
+  <span>A package is any of the following:</span>
 </div>
 
 <h3>Getting Packages From registry:</h3>
-
----
 
 Searching for package:
 
