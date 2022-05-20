@@ -19,7 +19,7 @@
 
   </br>
 </div>
-  <p>A <b>package</b> is a file or directory that is described by a <span style ="color:#F0E68C">package.json</span> file. A package must contain a <span style ="color:#F0E68C">package.json</span> file in order to be published to the npm registry.</p>
+  <p>A <b>package</b> is a file or directory that is described by a <span style ="color:#F5FFFA">package.json</span> file. A package must contain a <span style ="color:#F5FFFA">package.json</span> file in order to be published to the npm registry.</p>
 <div>
   
 </div>
