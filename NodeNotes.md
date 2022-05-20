@@ -15,10 +15,14 @@
 
 ---
 
-<div>
-  
-  <p>npm registry contains packages, many of which are also Node modules, or contain Node modules.</p>
+<p>npm registry contains packages, many of which are also Node modules, or contain Node modules.</p>
 
+<br>
+<h4>About Packages and Modules:</h4>
+
+---
+
+<div>
   </br>
   </div>
     <p>A <b>package</b> is a file or directory that is described by a <span style ="color:#DDA0DD">package.json</span> file. A package must contain a <span style ="color:#DDA0DD">package.json</span> file in order to be published to the npm registry.</p>
