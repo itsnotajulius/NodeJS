@@ -99,7 +99,7 @@ The scope name is everything between the @ and the slash:
 Tips:
 
 - Unscoped packages are PUBLIC
--
+- PRIVATE packages are always scoped
 
 <br><br><br><br><br><br>
 
