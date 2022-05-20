@@ -89,7 +89,9 @@ var req = require($module);
 
 - Upgrade NPM
 
-````js
+```js
+npm install npm@latest -g
+```
 
 <br><br><br><br><br><br>
 
@@ -101,7 +103,7 @@ Using the packages in Node
 
 ```js
 var projectName = require("@scope/package-name");
-````
+```
 
 Start Connection:
 
