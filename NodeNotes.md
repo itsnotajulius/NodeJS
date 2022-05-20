@@ -28,7 +28,7 @@
 
 - <a href = https://docs.npmjs.com/about-scopes>About Scopes</a>
 - <a href = https://docs.npmjs.com/about-private-packages>About Private packages</a>
-- <a href = >Packages scope, access level and visibilty</a>
+- <a href = https://docs.npmjs.com/package-scope-access-level-and-visibility>Packages scope, access level and visibilty</a>
 
 <br>
 
