@@ -18,6 +18,6 @@
 - Express:
   ```
   app.get('/', (req, res) => {
-        res.render('index', {foo: 'FOO'});
-    });
+    res.render('index', {foo: 'FOO'});
+  });
   ```
