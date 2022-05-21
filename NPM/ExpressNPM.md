@@ -143,9 +143,9 @@ Where:
 - [GitHub Organization](https://github.com/expressjs) for Official Middleware & Modules
 - Visit the [Wiki](https://github.com/expressjs/express/wiki)
 - [Google Group](https://groups.google.com/group/express-js) for discussion
-- [Gitter](https://gitter.im/expressjs/express) for support and discussion
 
-[MIT](LICENSE)
+- [Gitter](https://gitter.im/expressjs/express) for support and discussion☻♣
+  [MIT](LICENSE)
 
 [appveyor-image]: https://badgen.net/appveyor/ci/dougwilson/express/master?label=windows
 [appveyor-url]: https://ci.appveyor.com/project/dougwilson/express
