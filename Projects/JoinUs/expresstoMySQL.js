@@ -11,5 +11,6 @@ var connection = mysql.createConnection({
 
 connection.start(function (err) {
   if (err) {
+    console.error("Error is:" + err.stack);
   }
 });
