@@ -6,21 +6,6 @@
 
 Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
 
-[![NPM Version][npm-version-image]][npm-url]
-[![NPM Install Size][npm-install-size-image]][npm-install-size-url]
-[![NPM Downloads][npm-downloads-image]][npm-downloads-url]
-
-```js
-const express = require("express");
-const app = express();
-
-app.get("/", function (req, res) {
-  res.send("Hello World");
-});
-
-app.listen(3000);
-```
-
 ## Installation
 
 This is a [Node.js](https://nodejs.org/en/) module available through the
@@ -29,7 +14,7 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 Before installing, [download and install Node.js](https://nodejs.org/en/download/).
 Node.js 0.10 or higher is required.
 
-If this is a brand new project, make sure to create a `package.json` first with
+Make sure to create a `package.json` first with
 the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).
 
 Installation is done using the
