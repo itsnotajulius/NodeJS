@@ -10,8 +10,9 @@ let connnection = mysql.createConnection({
 });
 
 connnection.connect(function (err) {
-  if (err) throw err;
-  console.log(`Server is connecint`);
+  if (err) {
+    console.log(`Server is connecint`);
+  }
 });
 
 let q = "SELECT Count(*) AS count FROM users";
