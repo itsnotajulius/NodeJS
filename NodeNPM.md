@@ -53,6 +53,8 @@
      `Just temp install`
    ```
 
+- Tip: Can send and upload the package.json to others to know what you have installed
+
 <br>
 
 <h3>About Packages and Modules:</h3>
