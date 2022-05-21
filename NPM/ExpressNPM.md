@@ -116,9 +116,13 @@ Where:
 - PATH is a path on the server.
 - HANDLER is the function executed when the route is matched.
 
-<br>
+### Route Methods
 
-### Response methods
+<br/>
+
+### Handler
+
+#### Response methods
 
 The methods on the response object (res) in the following table can send a response to the client, and terminate the request-response cycle. If none of these methods are called from a route handler, the client request will be left hanging.
 
