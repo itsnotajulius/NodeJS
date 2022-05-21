@@ -2,7 +2,7 @@
 
 ## Basic setup
 
-| Setup          |     |
+|                |     |                    |
 | -------------- | --- | ------------------ |
 | Install (npm)  |     | `npm install ejs`  |
 | Install (yarn) |     | `yarn install ejs` |
