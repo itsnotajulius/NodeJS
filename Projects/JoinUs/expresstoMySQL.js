@@ -15,4 +15,6 @@ connection.start(function (err) {
   }
 });
 
+con;
+
 connection.end(function (err) {});
