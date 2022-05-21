@@ -16,4 +16,8 @@
 ### Rendering:
 
 - Express:
-  -
+  ```
+  app.get('/', (req, res) => {
+        res.render('index', {foo: 'FOO'});
+    });
+  ```
