@@ -1,4 +1,4 @@
-# EJS NOTES
+# [EJS NOTES]()
 
 ## Basic setup
 
