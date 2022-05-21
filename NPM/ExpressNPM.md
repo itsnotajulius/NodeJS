@@ -1,6 +1,6 @@
 [![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
 
-<a align="right">[Site](http://expressjs.com/)</a>
+<a style=text-align:right;>[Site](http://expressjs.com/)</a>
 
 Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
 
