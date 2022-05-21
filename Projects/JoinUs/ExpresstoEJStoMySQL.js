@@ -11,8 +11,9 @@ let connnection = mysql.createConnection({
 
 connnection.connect(function (err) {
   if (err) {
-    console.log(`Server is connecint`);
+    console.log(`err` + err.stack);
   }
+  console.log(`Server is connecint`);
 });
 
 app.get("/", function (req, res) {
