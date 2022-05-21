@@ -1,4 +1,4 @@
-# [EJS NOTES]()
+# [EJS NOTES](https://ejs.co)
 
 ## Basic setup
 
