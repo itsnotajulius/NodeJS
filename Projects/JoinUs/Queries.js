@@ -171,3 +171,14 @@ connection.query(
 );
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Querying MYSQL using Express
+
+app.get("/", function (req, res) {
+  var q = "SELECT Count(*) AS count FROM users";
+  connection.query(q, function (error, results, fields) {
+    if (error) throw error;
+    var totalUsers = results[0].count;
+    res.send("There are " + totalUsers);
+  });
+});
