@@ -118,7 +118,7 @@ Where:
 
 ### Methods
 
-| Column A | Column B  | Column C    |
+|          |           |             |
 | -------- | --------- | ----------- |
 | get      | post      | delete      |
 | put      | unlock    | options     |
@@ -127,10 +127,7 @@ Where:
 | trace    | mkcol     | move        |
 | copy     | checkout  | mkactivity  |
 | lock     | head      | merge       |
-| m-search | notify    | merge       |
-
--
--
+| m-search | notify    | `all`       |
 
 <br/>
 
