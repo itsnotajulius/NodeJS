@@ -14,8 +14,6 @@
 | Initiate       |     | `require("express");` |
 | Install (yarn) |     | `yarn install ejs`    |
 
-In Express v4, a very basic setup using EJS would look like the following. (This assumes a `views` directory containing an `index.ejs` page.)
-
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
@@ -23,8 +21,6 @@ res.render("index", { foo: "FOO" });
 });
 
 app.listen(4000, () => console.log("Example app listening on port 4000!"));
-
-````
 
 There are a number of ways to pass specific configuration values to EJS from Express.
 
@@ -36,7 +32,7 @@ This is the most straightforward method, although `view options` has not been a 
 
 ```javascript
 app.set("view options", { delimiter: "?" });
-````
+```
 
 This method works for all options, even those which cannot be safely passed along with data, like `root`. It also allows you to set EJS options once, in one place.
 
