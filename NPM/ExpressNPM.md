@@ -118,28 +118,18 @@ Where:
 
 ### Methods
 
-| Column A | Column B | Column C |
-| -------- | -------- | -------- |
-| get      | post     | delete   |
+| Column A | Column B  | Column C    |
+| -------- | --------- | ----------- |
+| get      | post      | delete      |
+| put      | unlock    | options     |
+| patch    | purge     | report      |
+| search   | subscribe | unsubscribe |
+| trace    | mkcol     | move        |
+| copy     | checkout  | mkactivity  |
+| lock     | head      | merge       |
 
-copy | checkout | mkactivity
-lock| head | merge
-
-- mkcol
-- move
 - m-search
 - notify
-- options
-- patch
--
-- purge
-- put
-- report
-- search
-- subscribe
-- trace
-- unlock
-- unsubscribe
 
 <br/>
 
