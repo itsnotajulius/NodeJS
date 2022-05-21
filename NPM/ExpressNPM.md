@@ -115,18 +115,6 @@ Then run whichever example you want:
 $ node examples/content-negotiation
 ```
 
-## Contributing
-
-[![Linux Build][github-actions-ci-image]][github-actions-ci-url]
-[![Windows Build][appveyor-image]][appveyor-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
-
-The Express.js project welcomes all constructive contributions. Contributions take many forms,
-from code for bug fixes and enhancements, to additions and fixes to documentation, additional
-tests, triaging incoming pull requests and issues, and more!
-
-See the [Contributing Guide](Contributing.md) for more technical details on contributing.
-
 ### Security Issues
 
 If you discover a security vulnerability in Express, please see [Security Policies and Procedures](Security.md).
