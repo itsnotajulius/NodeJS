@@ -6,9 +6,9 @@ app.get("/", function (reg, res) {
   res.send("Hello APP");
 });
 
-app.get("/joke",functio(reg, res){
-    res.send("Jokiee");
-})
+app.get("/joke", function (reg, res) {
+  res.send("Jokiee");
+});
 
 app.listen(port, function () {
   console.log("App is listing");
