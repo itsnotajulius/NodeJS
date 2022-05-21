@@ -1,5 +1,5 @@
-let express = requrie("express");
-let mysql = requrie("mysql");
+let express = require("express");
+let mysql = require("mysql");
 let port = 3000;
 let app = express();
 
