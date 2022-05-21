@@ -17,16 +17,13 @@ connection.connect(function (err) {
 
 app.get("/", function (req, res) {
   var q = "SELECT Count(*) AS count FROM users";
-
-  var userAmount = connection.query(q, function (error, results, fields) {
+  connection.query(q, function (error, results, fields) {
     if (error) throw error;
-    console.log(results[0].count);
+    var totalUsers = results[0].count;
+    res.send("There are " + totalUsers);
   });
-  res.send("There are " + userAmount);
 });
 
 app.listen(function () {
-  console.log("App is listening");
+  console.log("Server is listening");
 });
-
-connection.end(function (err) {});
