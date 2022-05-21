@@ -9,7 +9,8 @@ var connection = mysql.createConnection({
   database: "join_us",
 });
 
-connection.start(function (err) {
+connection.
+(function (err) {
   if (err) {
     console.error("Error is:" + err.stack);
   }
