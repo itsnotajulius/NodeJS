@@ -15,12 +15,10 @@ Before installing, [download and install Node.js](https://nodejs.org/en/download
 Node.js 0.10 or higher is required.
 
 Make sure to create a `package.json` first with
-the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).
-
-Installation is done using the
-[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+the
 
 ```console
+$ npm init
 $ npm install express
 ```
 
@@ -96,7 +94,12 @@ $ npm install
 $ npm test
 ```
 
+<br>
+<br>
+
 ## Basic routing
+
+---
 
 Routing refers to application responds to a client request to endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, etc).
 
