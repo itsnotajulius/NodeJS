@@ -126,7 +126,7 @@ The methods on the response object (res) in the following table can send a respo
 | ---------------- | --- | ------------------------------------------------------------------------------------- |
 | `res.download()` |     | Prompt a file to be downloaded.                                                       |
 | `res.end()`      |     | End the response process.                                                             |
-| res.json()       |     | Send a JSON response.                                                                 |
+| `res.json()`     |     | Send a JSON response.                                                                 |
 | res.jsonp()      |     | Send a JSON response with JSONP support.                                              |
 | res.redirect()   |     | Redirect a request.                                                                   |
 | res.render()     |     | Render a view template.                                                               |
