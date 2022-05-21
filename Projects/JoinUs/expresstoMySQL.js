@@ -16,6 +16,11 @@ connection.connect(function (err) {
 });
 
 app.get("/", function (req, res) {
+  var q = "SELECT Count(*) AS count FROM users";
+
+  var userAmount = connection.query(q, function (error, results, fields) {
+    console.log(results[0].count);
+  });
   res.send("There are " + userAmount);
 });
 
