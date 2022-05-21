@@ -1,3 +1,5 @@
+import {} from "mysql";
+
 const express = require("express");
 const app = express();
 const mysql = require("mysql");
@@ -14,3 +16,5 @@ connection.start(function (err) {
     console.error("Error is:" + err.stack);
   }
 });
+
+connection.end;
