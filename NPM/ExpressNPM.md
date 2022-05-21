@@ -129,7 +129,7 @@ Where:
 | lock     | head      | merge       |
 | m-search | notify    | `all`       |
 
-_Hint:_ Special routing method, `app.all()`, used to load middleware functions at a path for all HTTP request methods.
+> _Hint:_ Special routing method, `app.all()`, used to load middleware functions at a path for all HTTP request methods.
 
 <br/>
 
@@ -137,7 +137,7 @@ _Hint:_ Special routing method, `app.all()`, used to load middleware functions a
 
 #### Response methods
 
-The methods on the response object (res) in the following table can send a response to the client, and terminate the request-response cycle. If none of these methods are called from a route handler, the client request will be left hanging.
+> The response object (res) in the following table can send a response to the client, and terminate the request-response cycle. If no methods are called from a route handler, the client request will be left hanging.
 
 | Method             |     | Description                                                                           |
 | ------------------ | --- | ------------------------------------------------------------------------------------- |
