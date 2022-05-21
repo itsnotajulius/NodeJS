@@ -62,7 +62,6 @@ connection.query(q, function (error, results, fields) {
   console.log("The solution is: ", results);
 });
 
-
 //*INSTERTING DATA TAKE 2
 var q = { email: "matjulgaming@gmail.com" };
 
@@ -74,7 +73,6 @@ connection.query(
     console.log("The solution is: ", results);
   }
 );
-
 
 //INSERTING DATA TAKE 3
 var s = "SELECT * FROM users";
@@ -106,7 +104,6 @@ connection.query(insertStatmenmt, data, function (error, results, fields) {
   if (error) throw error;
   console.log(results);
 });
-
 
 //INSERTING DATA TAKE 5
 var s = "SELECT * FROM users";
