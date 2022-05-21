@@ -15,12 +15,6 @@ connection.connect(function (err) {
   }
 });
 
-var q = "SELECT Count(*) AS count FROM users";
-
-var userAmount = connection.query(q, function (error, results, fields) {
-  console.log(results[0].count);
-});
-
 app.get("/", function (req, res) {
   res.send("There are " + userAmount);
 });
