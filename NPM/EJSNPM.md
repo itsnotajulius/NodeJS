@@ -9,10 +9,6 @@
 
 ## Using EJS
 
-|          |     |                       |
-| -------- | --- | --------------------- |
-| Initiate |     | `require("express");` |
-
 | app.set     |     |                                  |
 | ----------- | --- | -------------------------------- |
 | view engine |     | `app.set("view engine", "ejs");` |
