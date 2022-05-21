@@ -5,7 +5,7 @@ let app = express();
 
 let connnection = mysql.createConnection({
   host: "localhost",
-  username: "root",
+  user: "root",
   database: "join_us",
 });
 
