@@ -9,18 +9,13 @@
 
 ## Using EJS
 
-|               |     |                                  |
-| ------------- | --- | -------------------------------- |
-| Initiate      |     | `require("express");`            |
-| Express usage |     | `app.set("view engine", "ejs");` |
+|          |     |                       |
+| -------- | --- | --------------------- |
+| Initiate |     | `require("express");` |
 
-```
-app.get("/", (req, res) => {
-
-});
-
-app.listen(4000, () => console.log("Example app listening on port 4000!"));
-```
+| app.set     |     |                                  |
+| ----------- | --- | -------------------------------- |
+| view engine |     | `app.set("view engine", "ejs");` |
 
 There are a number of ways to pass specific configuration values to EJS from Express.
 
