@@ -22,8 +22,10 @@ app.get("/", function (req, res) {
   let q = "SELECT Count(*) AS count FROM users";
 
   connnection.query(q, function (err, result, fields) {
-    res.send("This ammount users " + result[0].count);
-    res.render("index");
+    if (err) throw err;
+    let count = result[0].count;
+    //res.send("This ammount users " + count);
+    res.render("index", { data: count });
   });
 });
 
