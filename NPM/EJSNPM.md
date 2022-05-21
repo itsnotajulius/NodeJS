@@ -7,6 +7,8 @@
 | Install (npm)  |     | `npm install ejs`  |
 | Install (yarn) |     | `yarn install ejs` |
 
+## Using EJS
+
 # Editing Using EJS with Express
 
 In Express v4, a very basic setup using EJS would look like the following. (This assumes a `views` directory containing an `index.ejs` page.)
