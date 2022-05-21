@@ -118,29 +118,29 @@ Where:
 
 ### Methods
 
-checkout
-copy
-delete
-get
-head
-lock
-merge
-mkactivity
-mkcol
-move
-m-search
-notify
-options
-patch
-post
-purge
-put
-report
-search
-subscribe
-trace
-unlock
-unsubscribe
+- checkout
+- copy
+- delete
+- get
+- head
+- lock
+- merge
+- mkactivity
+- mkcol
+- move
+- m-search
+- notify
+- options
+- patch
+- post
+- purge
+- put
+- report
+- search
+- subscribe
+- trace
+- unlock
+- unsubscribe
 
 <br/>
 
