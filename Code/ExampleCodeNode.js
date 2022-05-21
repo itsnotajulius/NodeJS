@@ -172,17 +172,41 @@ connection.query(
   }
 );
 
-//Setting up express
-const express = require("express");
-const app = express();
-const port = 3000;
+/*
+  //Setting up express
+  const express = require("express");
+  const app = express();
+  const port = 3000;
 
-//Looking for home
-app.get("/", function (reg, res) {
-  res.send("Hello APP");
-});
+  //Looking for home
+  app.get("/", function (reg, res) {
+    res.send("Hello APP");
+  });
 
-//Listening on given port
-app.listen(port, function () {
-  console.log("App is listing");
-});
+  //Listening on given port
+  app.listen(port, function () {
+    console.log("App is listing");
+  });
+*/
+
+/*
+  const express = require("express");
+  const app = express();
+  const port = 3000;
+
+  app.get("/", function (reg, res) {
+    res.send("Hello APP");
+  });
+
+  app.get("/joke", function (reg, res) {
+    res.send("Jokiee");
+  });
+
+  app.get("/random_num", function (req, res) {
+    Math.floor(Math.random() * 1) + 1;
+  });
+
+  app.listen(port, function () {
+    console.log("App is listing");
+  });
+ */
