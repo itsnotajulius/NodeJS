@@ -5,7 +5,6 @@ This project deals with:
 - Setting up a database
 - Making fake entries into that database
 - Selecting/Showing Data of the table
--
 
 This project contains Five different tools:
 
