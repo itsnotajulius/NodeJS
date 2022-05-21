@@ -116,7 +116,7 @@ Where:
 - PATH is a path on the server.
 - HANDLER is the function executed when the route is matched.
 
-### Route Methods
+### Methods
 
 <br/>
 
