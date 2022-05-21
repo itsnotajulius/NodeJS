@@ -21,3 +21,4 @@
     res.render("index", { foo: "FOO" });
   });
   ```
+  - `index.ejs` should be in views directory
