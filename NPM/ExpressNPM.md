@@ -142,6 +142,12 @@ Where:
 - HANDLER is the function executed when the route is matched.
 
 <br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
 [MIT](LICENSE)
 
 [appveyor-image]: https://badgen.net/appveyor/ci/dougwilson/express/master?label=windows
