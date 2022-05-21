@@ -15,9 +15,11 @@
 
 <h2>Installing</h2>
 
+---
+
 Assuming you’ve already installed <mark>Node.js</mark>, create a working directory to hold your application
 
-```
+```shell
 $ mkdir myapp
 
 $ cd myapp
