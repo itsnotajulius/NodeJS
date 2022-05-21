@@ -127,9 +127,10 @@ Where:
 | trace    | mkcol     | move        |
 | copy     | checkout  | mkactivity  |
 | lock     | head      | merge       |
+| m-search | notify    | merge       |
 
-- m-search
-- notify
+-
+-
 
 <br/>
 
