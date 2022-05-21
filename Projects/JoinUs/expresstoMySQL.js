@@ -1,4 +1,3 @@
-import {} from "mysql";
 
 const express = require("express");
 const app = express();
@@ -17,4 +16,4 @@ connection.start(function (err) {
   }
 });
 
-connection.end;
+app.
