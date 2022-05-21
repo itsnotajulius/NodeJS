@@ -27,15 +27,13 @@ connection.connect(function (err) {
 connection.query(query, function (error, results, fields) {
   if (error) throw error;
   console.log("The solution is: ", results[0].solution);
-});♣
+});
 
 connection.end(function (err) {
   // The connection is terminated now
 });
 
 ////////////////////////////////////////////////////////////////////////////////////
-
-
 
 //SELECTING DATA
 var q = "SELECT CURTIME() as time, CURDATE() as date, NOW() as now";
@@ -47,8 +45,6 @@ connection.query(q, function (error, results, fields) {
 });
 
 ////////////////////////////////////////////////////////////////////////////////////
-
-
 
 //Querying the database
 const q = "SELECT * FROM users ";
@@ -172,9 +168,7 @@ connection.query(q, function (error, results, fields) {
   console.log(results);
 });
 
-
 ////////////////////////////////////////////////////////////////////////////////////
-
 
 //Getting email that has yahoo in it Take 1
 var q = "SELECT COUNT(*) AS yahoo_users FROM users WHERE email LIKE '%yahoo%'";
