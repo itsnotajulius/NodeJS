@@ -93,16 +93,6 @@ $ npm start
 
 View the website at: http://localhost:3000
 
-## Philosophy
-
-The Express philosophy is to provide small, robust tooling for HTTP servers, making
-it a great solution for single page applications, websites, hybrids, or public
-HTTP APIs.
-
-Express does not force you to use any specific ORM or template engine. With support for over
-14 template engines via [Consolidate.js](https://github.com/tj/consolidate.js),
-you can quickly craft your perfect framework.
-
 ## Examples
 
 To view the examples, clone the Express repo and install the dependencies:
@@ -131,6 +121,22 @@ To run the test suite, first install the dependencies, then run `npm test`:
 $ npm install
 $ npm test
 ```
+
+## Basic routing
+
+Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+
+Each route can have one or more handler functions, which are executed when the route is matched.
+
+Route definition takes the following structure:
+
+app.METHOD(PATH, HANDLER)
+Where:
+
+- app is an instance of express.
+  METHOD is an HTTP request method, in lowercase.
+  PATH is a path on the server.
+  HANDLER is the function executed when the route is matched.
 
 [MIT](LICENSE)
 
