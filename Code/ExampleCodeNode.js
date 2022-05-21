@@ -54,16 +54,15 @@ connection.query(q, function (error, results, fields) {
   }
 });
 
-/*INSERTING DATA TAKE 1
+//*INSERTING DATA TAKE 1
 var q = "INSER INTO users(emails) VALUES (rusty@gamil.com)";
 
 connection.query(q, function (error, results, fields) {
   if (error) throw error;
   console.log("The solution is: ", results);
 });
-*/
 
-/*INSTERTING DATA TAKE 2
+//*INSTERTING DATA TAKE 2
 var q = { email: "matjulgaming@gmail.com" };
 
 connection.query(
@@ -74,7 +73,6 @@ connection.query(
     console.log("The solution is: ", results);
   }
 );
-*/
 
 //INSERTING DATA TAKE 3
 var s = "SELECT * FROM users";
@@ -93,7 +91,7 @@ connection.query(s, function (error, results, fields) {
   console.log(results.length);
 });
 
-/*INSTERTING DATA TAKE 4
+//*INSTERTING DATA TAKE 4
 var s = "SELECT * FROM users";
 var insertStatmenmt = "INSERT INTO users (email,created_at) VALUES ?";
 var data = [];
@@ -106,7 +104,6 @@ connection.query(insertStatmenmt, data, function (error, results, fields) {
   if (error) throw error;
   console.log(results);
 });
-*/
 
 //INSERTING DATA TAKE 5
 var s = "SELECT * FROM users";
