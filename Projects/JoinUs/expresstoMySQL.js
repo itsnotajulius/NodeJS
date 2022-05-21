@@ -4,5 +4,5 @@ const mysql = require("mysql");
 const { createConnection } = require("net");
 
 var connection = mysql.createConnection(
-    host:   
+    host: "localhost" 
 );
