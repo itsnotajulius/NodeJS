@@ -116,6 +116,7 @@ var connection = mysql.createConnection(..Connection Options...);
 
 <h3>Resources</h3>
 <div>
+
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
-- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Express NPM<a>
 </div>
