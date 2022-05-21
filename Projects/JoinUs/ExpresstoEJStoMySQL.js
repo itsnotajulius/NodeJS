@@ -22,6 +22,6 @@ app.get("/", function (req, res) {
   });
 });
 
-app.listen(function () {
+app.listen(port, function () {
   console.log(`App is listening`);
 });
