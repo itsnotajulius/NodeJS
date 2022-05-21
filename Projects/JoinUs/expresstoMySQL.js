@@ -15,6 +15,6 @@ connection.start(function (err) {
   }
 });
 
-con;
+connection.query();
 
 connection.end(function (err) {});
