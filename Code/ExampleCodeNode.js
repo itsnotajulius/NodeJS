@@ -173,6 +173,7 @@ connection.query(
 );
 
 ///////////////////////////
+
   //Setting up express
   const express = require("express");
   const app = express();
@@ -187,7 +188,9 @@ connection.query(
   app.listen(port, function () {
     console.log("App is listing");
   });
+  
 ///////////////////////////////////////
+
   const express = require("express");
   const app = express();
   const port = 3000;
