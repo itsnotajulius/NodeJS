@@ -10,6 +10,10 @@ app.get("/joke", function (reg, res) {
   res.send("Jokiee");
 });
 
+app.get("/random_num", function (req, res) {
+  Math.floor(Math.random() * 1) + 1;
+});
+
 app.listen(port, function () {
   console.log("App is listing");
 });
