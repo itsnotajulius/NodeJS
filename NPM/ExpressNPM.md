@@ -129,6 +129,9 @@ Where:
 - HANDLER is the function executed when the route is matched.
 
 <br>
+
+Don't use `res.send()` and `res.render()` in same code block
+
 <br>
 <br>
 <br><br>
