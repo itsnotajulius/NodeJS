@@ -53,7 +53,7 @@
      `Just temp install`
    ```
 
-- Tip: Can send and upload the package.json to others to know what you have installed
+- Tip: Can send and upload the package.json to others so they know what you have installed
 
 <br>
 
