@@ -31,17 +31,23 @@
 
 2. Use the `npm init` command to create a <mark>package.json</mark> file for your application.
    `shell $ npm init `
-   This command prompts you for a number of things, such as the name and version of your application. For now, you can simply hit RETURN to accept the defaults for most of them, with the following exception:
+   <br>
 
-entry point: (index.js)
-Enter app.js, or whatever you want the name of the main file to be. If you want it to be index.js, hit RETURN to accept the suggested default file name.
+3. Optional with the following: `entry point: (index.js)`
+   Enter app.js, or whatever you want the name of the main file to be.
 
-Now install Express in the myapp directory and save it in the dependencies list. For example:
+<br>
 
-$ npm install express
-To install Express temporarily and not add it to the dependencies list:
+4. Now install (With/without dependencies list.)
 
+```Shell
+$ npm install module
+$ npm install express --save
+  `Goes to package.json dependencies`
+$ npm install express --save--dev
+  `Goes to package.json dependencies`
 $ npm install express --no-save
+```
 
 <br>
 
