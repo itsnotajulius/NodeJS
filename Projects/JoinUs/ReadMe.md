@@ -7,8 +7,14 @@ This project deals with:
 - Selecting/Showing Data of the table
 -
 
-This project contains four different tools:
+This project contains Five different tools:
 
 - MySQL
+  - Database
+  - Tables
+  - Selecting Data
+  - Filtering
 - NodeJS
 - NPM (MySql, Faker and Express)
+- VSCode
+- Github
