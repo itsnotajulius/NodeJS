@@ -45,8 +45,9 @@ $ npm install module
 $ npm install express --save
   `Goes to package.json dependencies`
 $ npm install express --save--dev
-  `Goes to package.json dependencies`
+  `Goes to package.json devdependencies`
 $ npm install express --no-save
+  `Just temp`
 ```
 
 <br>
