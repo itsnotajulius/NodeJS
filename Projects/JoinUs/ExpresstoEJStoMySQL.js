@@ -24,7 +24,6 @@ app.get("/", function (req, res) {
   connnection.query(q, function (err, result, fields) {
     if (err) throw err;
     let count = result[0].count;
-    //res.send("This ammount users " + count);
     res.render("index", { data: count });
   });
 });
