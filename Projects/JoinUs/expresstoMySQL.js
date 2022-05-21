@@ -3,4 +3,6 @@ const app = express();
 const mysql = require("mysql");
 const { createConnection } = require("net");
 
-var connection = mysql.createConnection();
+var connection = mysql.createConnection(
+    host:   
+);
