@@ -23,6 +23,7 @@ app.get("/", function (req, res) {
 
   connnection.query(q, function (err, result, fields) {
     res.send("This ammount users " + result[0].count);
+    res.render(index);
   });
 });
 
