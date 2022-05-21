@@ -6,6 +6,8 @@ connection.query(query, function (error, results, fields) {
   console.log("The solution is: ", results[0].solution);
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //SELECTING DATA
 var q = "SELECT CURTIME() as time, CURDATE() as date, NOW() as now";
 connection.query(q, function (error, results, fields) {
@@ -14,6 +16,8 @@ connection.query(q, function (error, results, fields) {
   console.log(results[0].date);
   console.log(results[0].now);
 });
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Querying the database
 const q = "SELECT * FROM users ";
@@ -26,6 +30,8 @@ connection.query(q, function (error, results, fields) {
   }
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //*INSERTING DATA TAKE 1
 var q = "INSER INTO users(emails) VALUES (rusty@gamil.com)";
 
@@ -33,6 +39,8 @@ connection.query(q, function (error, results, fields) {
   if (error) throw error;
   console.log("The solution is: ", results);
 });
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //*INSTERTING DATA TAKE 2
 var q = { email: "matjulgaming@gmail.com" };
@@ -45,6 +53,8 @@ connection.query(
     console.log("The solution is: ", results);
   }
 );
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //INSERTING DATA TAKE 3
 var s = "SELECT * FROM users";
@@ -63,6 +73,8 @@ connection.query(s, function (error, results, fields) {
   console.log(results.length);
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //*INSTERTING DATA TAKE 4
 var s = "SELECT * FROM users";
 var insertStatmenmt = "INSERT INTO users (email,created_at) VALUES ?";
@@ -76,6 +88,8 @@ connection.query(insertStatmenmt, data, function (error, results, fields) {
   if (error) throw error;
   console.log(results);
 });
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //INSERTING DATA TAKE 5
 var s = "SELECT * FROM users";
@@ -97,9 +111,13 @@ connection.query(s, function (error, results, fields) {
   console.log(results);
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //Earliest creation
 var q =
   "SELECT DATE_FORMAT(MIN(created_at), '%M %D %Y') as earliest_date FROM users";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Showing Earliest User
 var q = "SELECT * FROM users ORDER BY created_at LIMIT 1";
@@ -112,6 +130,8 @@ connection.query(q, function (error, results, fields) {
   console.log(results);
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //Showing user created count per month
 var q =
   "SELECT MONTHNAME(created_at) AS month, COUNT(*) AS count FROM users GROUP BY month ORDER BY count DESC";
@@ -121,12 +141,18 @@ connection.query(q, function (error, results, fields) {
   console.log(results);
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //Getting email that has yahoo in it Take 1
 var q = "SELECT COUNT(*) AS yahoo_users FROM users WHERE email LIKE '%yahoo%'";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Getting email that has yahoo in it Take 2
 var q = "SELECT COUNT(*) AS yahoo_users FROM users WHERE email LIKE ?";
 var likie = "%yahoo%";
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Getting different types of emails
 var q =
