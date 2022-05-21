@@ -17,4 +17,8 @@ connection.start(function (err) {
 
 connection.query();
 
+app.get("/", function (req, res) {});
+
+app.listen(function () {});
+
 connection.end(function (err) {});
