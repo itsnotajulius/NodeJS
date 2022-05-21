@@ -16,6 +16,8 @@ connnection.connect(function (err) {
   console.log(`Server is connecint`);
 });
 
+app.set("view engine", "ejs");
+
 app.get("/", function (req, res) {
   let q = "SELECT Count(*) AS count FROM users";
   connnection.query(q, function (err, result, fields) {
