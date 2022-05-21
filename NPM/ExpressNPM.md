@@ -118,21 +118,20 @@ Where:
 
 ### Methods
 
-- checkout
-- copy
-- delete
-- get
-- head
-- lock
-- merge
-- mkactivity
+| Column A | Column B | Column C |
+| -------- | -------- | -------- |
+| get      | post     | delete   |
+
+copy | checkout | mkactivity
+lock| head | merge
+
 - mkcol
 - move
 - m-search
 - notify
 - options
 - patch
-- post
+-
 - purge
 - put
 - report
