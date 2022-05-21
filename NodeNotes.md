@@ -106,16 +106,6 @@ Tips:
 
 <br><br><br><br><br>
 
-<h3>Getting Packages From registry:</h3>
-
-Searching for package:
-
-Using the packages in Node
-
-```js
-var projectName = require("@scope/package-name");
-```
-
 Start Connection:
 
 ```js
@@ -126,5 +116,5 @@ var connection = mysql.createConnection(..Connection Options...);
 
 <h3>Resources</h3>
 <div>
-  <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
 </div>
