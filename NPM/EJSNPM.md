@@ -2,19 +2,10 @@
 
 ## Basic setup
 
-First, install EJS:
-
-Using the package manager [`npm`](https://npmjs.com):
-
-```sh
-npm install ejs
-```
-
-Or using the package manager [`yarn`](https://yarnpkg.com):
-
-```sh
-yarn add ejs
-```
+| Setup          |     |
+| -------------- | --- | ------------------ |
+| Install (npm)  |     | `npm install ejs`  |
+| Install (yarn) |     | `yarn install ejs` |
 
 # Editing Using EJS with Express
 
