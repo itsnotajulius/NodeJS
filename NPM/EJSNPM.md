@@ -9,18 +9,18 @@
 
 ## Using EJS
 
-|                |     |                       |
-| -------------- | --- | --------------------- |
-| Initiate       |     | `require("express");` |
-| Install (yarn) |     | `yarn install ejs`    |
+|               |     |                                  |
+| ------------- | --- | -------------------------------- |
+| Initiate      |     | `require("express");`            |
+| Express usage |     | `app.set("view engine", "ejs");` |
 
-app.set("view engine", "ejs");
-
+```
 app.get("/", (req, res) => {
 res.render("index", { foo: "FOO" });
 });
 
 app.listen(4000, () => console.log("Example app listening on port 4000!"));
+```
 
 There are a number of ways to pass specific configuration values to EJS from Express.
 
