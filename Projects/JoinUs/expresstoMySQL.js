@@ -21,4 +21,7 @@ app.get("/", function (req, res) {});
 
 app.listen(function () {});
 
-connection.end(function (err) {});
+connection.end();
+connection.end(function (err) {
+  console.log("App is listening");
+});
