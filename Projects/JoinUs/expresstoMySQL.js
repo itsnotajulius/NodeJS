@@ -15,13 +15,16 @@ connection.start(function (err) {
   }
 });
 
-connection.query();
+var q = "SELECT Count(*) AS count FROM users";
+
+connection.query(q, function (error, results, fields) {
+  console.log(results);
+});
 
 app.get("/", function (req, res) {});
 
-app.listen(function () {});
-
-connection.end();
-connection.end(function (err) {
+app.listen(function () {
   console.log("App is listening");
 });
+
+connection.end(function (err) {});
