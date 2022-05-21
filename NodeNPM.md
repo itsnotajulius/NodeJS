@@ -15,11 +15,13 @@
 
 <h2>Installing</h2>
 
-Assuming you’ve already installed ==Node.js==, create a directory to hold your application, and make that your working directory.
+Assuming you’ve already installed <mark>Node.js</mark>, create a working directory to hold your application
 
+```
 $ mkdir myapp
 
 $ cd myapp
+```
 
 Use the npm init command to create a package.json file for your application. For more information on how package.json works, see Specifics of npm’s package.json handling.
 
