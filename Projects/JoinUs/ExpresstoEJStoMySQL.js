@@ -8,4 +8,4 @@ let connnection = mysql.createConnection({
   database: "join_us",
 });
 
-connnection.c;
+connnection.;
