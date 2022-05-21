@@ -129,6 +129,8 @@ Where:
 | lock     | head      | merge       |
 | m-search | notify    | `all`       |
 
+_Hint:_ Special routing method, `app.all()`, used to load middleware functions at a path for all HTTP request methods.
+
 <br/>
 
 ### Handler
