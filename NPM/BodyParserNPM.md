@@ -30,12 +30,12 @@ Options
 
 - extended
 
-| URL-encoded data    |     |       |
-| ------------------- | --- | ----- |
-| querystring library |     | false |
-| [qs library]()      |     | true  |
+| URL-encoded data                                      |     |       |
+| ----------------------------------------------------- | --- | ----- |
+| querystring library                                   |     | false |
+| [qs library](https://www.npmjs.org/package/qs#readme) |     | true  |
 
-he "extended" syntax allows for rich objects and arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded. For more information, please see the qs library.
+Allows for rich objects/arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded.
 
 Defaults to true, but using the default has been deprecated. Please research into the difference between qs and querystring and choose the appropriate setting.
 
