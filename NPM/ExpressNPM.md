@@ -122,12 +122,13 @@ Where:
 | ------- | --------- | ----------- |
 | get     | post      | delete      |
 | put     | copy      | checkout    |
+| head    | lock      | trace       |
+| merge   | m-search  | mkactivity  |
+| move    | mkcol     | notify      |
 | patch   | purge     | report      |
 | search  | subscribe | unsubscribe |
-| trace   | mkcol     | move        |
-| options | m-search  | mkactivity  |
-| lock    | head      | merge       |
-| notify  | unlock    | `all`       |
+| options | unlock    | use         |
+|         | `all`     |             |
 
 > _Hint:_ Special routing method, `app.all()`, used to load middleware functions at a path for all HTTP request methods.
 
