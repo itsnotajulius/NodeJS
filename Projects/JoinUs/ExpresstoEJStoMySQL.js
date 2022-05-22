@@ -1,7 +1,11 @@
+let bodyParser = require("body-parser");
 let express = require("express");
 let mysql = require("mysql");
 let port = 3000;
 let app = express();
+
+app.set("view engine", "ejs");
+app.use(bodyParser.urlencoded({ extended: true }));
 
 let connnection = mysql.createConnection({
   host: "localhost",
@@ -15,8 +19,6 @@ connnection.connect(function (err) {
   }
   console.log(`Server is connecint`);
 });
-
-app.set("view engine", "ejs");
 
 app.get("/", function (req, res) {
   let q = "SELECT Count(*) AS count FROM users";
