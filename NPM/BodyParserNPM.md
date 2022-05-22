@@ -10,6 +10,6 @@ $ npm install body-parser
 
 API:
 
-```console
-$ npm install body-parser
+```js
+var bodyParser = require("body-parser");
 ```
