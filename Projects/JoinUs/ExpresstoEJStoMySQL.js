@@ -28,6 +28,8 @@ app.get("/", function (req, res) {
   });
 });
 
+app.post();
+
 app.listen(port, function () {
   console.log(`App is listening`);
 });
