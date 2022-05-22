@@ -33,7 +33,7 @@ Options
 | URL-encoded data    |     |       |
 | ------------------- | --- | ----- |
 | querystring library |     | false |
-| qs library          |     | true  |
+| [qs library]()      |     | true  |
 
 he "extended" syntax allows for rich objects and arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded. For more information, please see the qs library.
 
