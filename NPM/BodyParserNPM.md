@@ -28,6 +28,10 @@ A new body object containing the parsed data becomes request object after middle
 
 Options
 
+---------|----------|---------|
+false | |as |
+A2 | B | C2|
+
 - extended
 
 false querystring library (when false) or the qs library (when true). The "extended" syntax allows for rich objects and arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded. For more information, please see the qs library.
