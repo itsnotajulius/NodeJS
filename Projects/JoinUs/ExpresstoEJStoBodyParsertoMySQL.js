@@ -32,6 +32,10 @@ app.get("/", function (req, res) {
 
 app.post("/register", function (req, res) {
   let q = "INSERT INTO users SET ?";
+  connnection.query(q, req.body.email, function (err, results, fields) {
+    if (err) throw err;
+    console.log(results);
+  });
 });
 
 app.listen(port, function () {
