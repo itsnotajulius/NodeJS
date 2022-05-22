@@ -30,14 +30,14 @@ Options
 
 - extended
 
-| URL-encoded data                                      |     |       |
-| ----------------------------------------------------- | --- | ----- |
-| querystring library                                   |     | false |
-| [qs library](https://www.npmjs.org/package/qs#readme) |     | true  |
+  | URL-encoded data                                      |     |                |
+  | ----------------------------------------------------- | --- | -------------- |
+  | querystring library                                   |     | false          |
+  | [qs library](https://www.npmjs.org/package/qs#readme) |     | true (Default) |
 
-Allows for rich objects/arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded.
+  - Allows for rich objects/arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded.
 
-Defaults to true, but using the default has been deprecated. Please research into the difference between qs and querystring and choose the appropriate setting.
+<br/>
 
 - inflate
 
