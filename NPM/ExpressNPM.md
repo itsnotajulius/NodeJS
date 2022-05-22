@@ -118,16 +118,16 @@ Where:
 
 ### Methods
 
-|          |           |             |
-| -------- | --------- | ----------- |
-| get      | post      | delete      |
-| put      | unlock    | options     |
-| patch    | purge     | report      |
-| search   | subscribe | unsubscribe |
-| trace    | mkcol     | move        |
-| copy     | checkout  | mkactivity  |
-| lock     | head      | merge       |
-| m-search | notify    | `all`       |
+|         |           |             |
+| ------- | --------- | ----------- |
+| get     | post      | delete      |
+| put     | copy      | checkout    |
+| patch   | purge     | report      |
+| search  | subscribe | unsubscribe |
+| trace   | mkcol     | move        |
+| options | m-search  | mkactivity  |
+| lock    | head      | merge       |
+| notify  | unlock    | `all`       |
 
 > _Hint:_ Special routing method, `app.all()`, used to load middleware functions at a path for all HTTP request methods.
 
