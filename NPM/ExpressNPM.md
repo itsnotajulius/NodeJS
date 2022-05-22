@@ -125,9 +125,9 @@ Where:
 | head    | lock      | trace       |
 | merge   | m-search  | mkactivity  |
 | move    | mkcol     | notify      |
-| patch   | purge     | report      |
+| options | purge     | patch       |
 | search  | subscribe | unsubscribe |
-| options | unlock    | use         |
+| report  | unlock    | use         |
 |         | `all`     |             |
 
 > _Hint:_ Special routing method, `app.all()`, used to load middleware functions at a path for all HTTP request methods.
