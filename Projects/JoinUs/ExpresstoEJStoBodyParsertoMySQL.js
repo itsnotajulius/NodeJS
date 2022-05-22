@@ -35,7 +35,7 @@ app.post("/register", function (req, res) {
   let person = { email: req.body.email };
   connnection.query(q, person, function (err, results, fields) {
     if (err) throw err;
-    console.log(results);
+    res.render("/");
   });
 });
 
