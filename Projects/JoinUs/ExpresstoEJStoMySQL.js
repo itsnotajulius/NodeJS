@@ -28,7 +28,9 @@ app.get("/", function (req, res) {
   });
 });
 
-app.post();
+app.post("/register", function (req, res) {
+  let q = "INSERT INTO users SET ?";
+});
 
 app.listen(port, function () {
   console.log(`App is listening`);
