@@ -15,3 +15,7 @@ var bodyParser = require("body-parser");
 ```
 
 Express:
+
+```js
+app.use(bodyParser.urlencoded({ extended: false }));
+```
