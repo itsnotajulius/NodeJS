@@ -24,7 +24,7 @@ app.get("/", function (req, res) {
   connnection.query(q, function (err, result, fields) {
     if (err) throw err;
     let count = result[0].count;
-    res.render("index", { data: count });
+    res.render("index", { count: count });
   });
 });
 
