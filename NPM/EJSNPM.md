@@ -21,5 +21,5 @@
     res.render("index", { foo: "FOO" });
   });
   ```
-  -
+  - {nameVar: var} is sent to ejs
   - `index.ejs` should be in views directory
