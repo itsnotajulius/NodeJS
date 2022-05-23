@@ -4,41 +4,44 @@
 />
 <link rel="stylesheet" href="/app.css" />
 
-<div>
-  <h1>THIS IS HTML</h1>
-  <body>
-    <div>
-      <p>Enter your email to join <b> <%=count %> </b> Others.</p>
-    </div>
-    <div>
-      <form action="/register" method="post">
+<div class="flex-container">
+  <div>
+    <h1>THIS IS HTML</h1>
+    <body>
+      <div>
+        <p>Enter your email to join <b> <%=count %> </b> Others.</p>
+      </div>
+      <div>
+        <form action="/register" method="post">
+          <input
+            type="text"
+            name="email"
+            class="form"
+            placeholder="Enter your email"
+          />
+          <button type="submit">Join Now</button>
+        </form>
+      </div>
+    </body>
+    <div></div>
+  </div>
+
+  <div class="flex-container">
+    <div class="container">
+      <h1>JOIN US</h1>
+      <p class="lead">
+        Enter your email to join <strong><%= count %></strong> others on our
+        waitlist. We are 100% not a cult.
+      </p>
+      <form method="POST" action="/register">
         <input
           type="text"
           name="email"
           class="form"
-          placeholder="Enter your email"
+          placeholder="Enter Your Email"
         />
-        <button type="submit">Join Now</button>
+        <button>Join Now</button>
       </form>
     </div>
-  </body>
-</div>
-
-<div class="flex-container">
-  <div class="container">
-    <h1>JOIN US</h1>
-    <p class="lead">
-      Enter your email to join <strong><%= count %></strong> others on our
-      waitlist. We are 100% not a cult.
-    </p>
-    <form method="POST" action="/register">
-      <input
-        type="text"
-        name="email"
-        class="form"
-        placeholder="Enter Your Email"
-      />
-      <button>Join Now</button>
-    </form>
   </div>
 </div>
