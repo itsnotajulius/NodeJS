@@ -150,12 +150,6 @@ Tips:
 
 <br><br><br><br><br>
 
-Start Connection:
-
-```js
-var connection = mysql.createConnection(..Connection Options...);
-```
-
 </iv>
 
 <h3>Resources</h3>
