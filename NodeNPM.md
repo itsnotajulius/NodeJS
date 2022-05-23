@@ -72,6 +72,12 @@ For example:
 var req = require($module);
 ```
 
+| Module List |     |     |
+| ----------- | --- | --- |
+| A1          | B1  | C1  |
+| A2          | B2  | C2  |
+| A3          | B3  | C3  |
+
 <br><br>
 
 <h3>About Scopes</h3>
