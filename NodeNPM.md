@@ -74,9 +74,9 @@ For example:
 var req = require($module);
 ```
 
-| Module List |            |      |
-| ----------- | ---------- | ---- |
-| Faker       | BodyParser | EJSN |
+| Module List |            |     |
+| ----------- | ---------- | --- |
+| Faker       | BodyParser | EJS |
 | **Express** | MySQL      |
 
 <br><br>
@@ -93,7 +93,6 @@ var req = require($module);
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Express NPM<a>
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/BodyParserNPM.md>Body Parser NPM<a>
-- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
-- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Express NPM<a>
-- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/BodyParserNPM.md>Body Parser<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/EJSNPM.md>EJS NPM<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Faker NPM<a>
 </div>
