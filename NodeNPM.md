@@ -94,5 +94,5 @@ var req = require($module);
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Express NPM<a>
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/BodyParserNPM.md>Body Parser NPM<a>
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/EJSNPM.md>EJS NPM<a>
-- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Faker NPM<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/Faker/FakerNPM.md>Faker NPM<a>
 </div>
