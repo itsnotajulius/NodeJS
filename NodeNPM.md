@@ -57,10 +57,9 @@
 
 <br>
 
-<h3>About Packages and Modules:</h3>
 <br><br>
 
-<h3>About modules</h3>
+<h3>Modules</h3>
 
 ---
 
@@ -72,30 +71,12 @@ For example:
 var req = require($module);
 ```
 
-| Module List |     |     |
-| ----------- | --- | --- |
-| A1          | B1  | C1  |
-| A2          | B2  | C2  |
-| A3          | B3  | C3  |
+| Module List |            |      |
+| ----------- | ---------- | ---- |
+| Faker       | BodyParser | EJSN |
+| **Express** | MySQL      |
 
 <br><br>
-
-<h3>About Scopes</h3>
-
----
-
-<p>Scopes allow you to create a package<span style ="font-size:80%; color: yellow" >(even if package was made by other user)</span> without conflict</p>
-The scope name is everything between the @ and the slash:
-
-```js
-  @scope/package-name
-```
-
-Tips:
-
-- Unscoped packages are PUBLIC
-- PRIVATE packages are always scoped
-- **Scoped packages are private by default; you must make them public.**
 
 <br>
 
