@@ -92,5 +92,8 @@ var req = require($module);
 
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Express NPM<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/BodyParserNPM.md>Body Parser NPM<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Express NPM<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/BodyParserNPM.md>Body Parser<a>
 </div>
