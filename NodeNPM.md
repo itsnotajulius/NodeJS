@@ -64,6 +64,9 @@
 ---
 
 <p>A <b><span style ="color: #4d4dff">module</span> </b> is any file or directory in the node_modules directory that can be loaded by the Node.js require() function.</p>
+All Modules have there own functions.
+
+<br/>
 
 For example:
 
@@ -88,5 +91,6 @@ var req = require($module);
 <div>
 
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/MySQLNPM.md>MySQL NPM<a>
+- <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Express NPM<a>
 - <a href = https://github.com/itsnotajulius/NodeJS/blob/main/NPM/ExpressNPM.md>Express NPM<a>
 </div>
