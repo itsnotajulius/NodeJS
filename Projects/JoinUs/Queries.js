@@ -182,3 +182,15 @@ app.get("/", function (req, res) {
     res.send("There are " + totalUsers);
   });
 });
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+app.get("/", function (req, res) {
+  let q = "SELECT Count(*) AS count FROM users";
+
+  connnection.query(q, function (err, result, fields) {
+    if (err) throw err;
+    let count = result[0].count;
+    res.render("index", { count: count });
+  });
+});
