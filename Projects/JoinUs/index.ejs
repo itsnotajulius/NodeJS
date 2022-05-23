@@ -6,26 +6,28 @@
   <link rel="stylesheet" href="/app.css" />
 </head>
 
-<div class="flex-container">
-  <div class="container">
-    <h1>THIS IS HTML</h1>
-    <body>
-      <div>
-        <p class="lead">
-          Enter your email to join <b> <%=count %> </b> Others.
-        </p>
-      </div>
-      <div>
-        <form action="/register" method="post">
-          <input
-            type="text"
-            name="email"
-            class="form"
-            placeholder="Enter your email"
-          />
-          <button type="submit">Join Now</button>
-        </form>
-      </div>
-    </body>
+<body>
+  <div class="flex-container">
+    <div class="container">
+      <h1>THIS IS HTML</h1>
+      <body>
+        <div>
+          <p class="lead">
+            Enter your email to join <b> <%=count %> </b> Others.
+          </p>
+        </div>
+        <div>
+          <form action="/register" method="post">
+            <input
+              type="text"
+              name="email"
+              class="form"
+              placeholder="Enter your email"
+            />
+            <button type="submit">Join Now</button>
+          </form>
+        </div>
+      </body>
+    </div>
   </div>
-</div>
+</body>
