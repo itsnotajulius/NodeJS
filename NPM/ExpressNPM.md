@@ -141,6 +141,13 @@ Where:
 Don't use `res.send()` and `res.render()` in same code block
 
 <br>
+
+## App.
+
+### app.set
+
+### app.use
+
 <br>
 <br><br>
 <br>
