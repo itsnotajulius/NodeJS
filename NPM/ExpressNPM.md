@@ -25,16 +25,6 @@ $ npm install express
 Follow [our installing guide](http://expressjs.com/en/starter/installing.html)
 for more information.
 
-## Features
-
-- Robust routing
-- Focus on high performance
-- Super-high test coverage
-- HTTP helpers (redirection, caching, etc)
-- View system supporting 14+ template engines
-- Content negotiation
-- Executable for generating applications quickly
-
 ## Quick Start
 
 The quickest way to get started with express is to utilize the executable [`express(1)`](https://github.com/expressjs/generator) to generate an application as shown below:
@@ -80,10 +70,6 @@ Then run whichever example you want:
 ```console
 $ node examples/content-negotiation
 ```
-
-### Security Issues
-
-If you discover a security vulnerability in Express, please see [Security Policies and Procedures](Security.md).
 
 ### Running Tests
 
@@ -160,27 +146,3 @@ Don't use `res.send()` and `res.render()` in same code block
 <br>
 <br>
 <br>
-
-## Docs & Community
-
-- [Website and Documentation](http://expressjs.com/) - [[website repo](https://github.com/expressjs/expressjs.com)]
-- [#express](https://webchat.freenode.net/?channels=express) on freenode IRC
-- [GitHub Organization](https://github.com/expressjs) for Official Middleware & Modules
-- Visit the [Wiki](https://github.com/expressjs/express/wiki)
-- [Google Group](https://groups.google.com/group/express-js) for discussion
-
-- [Gitter](https://gitter.im/expressjs/express) for support and discussion☻♣
-  [MIT](LICENSE)
-
-[appveyor-image]: https://badgen.net/appveyor/ci/dougwilson/express/master?label=windows
-[appveyor-url]: https://ci.appveyor.com/project/dougwilson/express
-[coveralls-image]: https://badgen.net/coveralls/c/github/expressjs/express/master
-[coveralls-url]: https://coveralls.io/r/expressjs/express?branch=master
-[github-actions-ci-image]: https://badgen.net/github/checks/expressjs/express/master?label=linux
-[github-actions-ci-url]: https://github.com/expressjs/express/actions/workflows/ci.yml
-[npm-downloads-image]: https://badgen.net/npm/dm/express
-[npm-downloads-url]: https://npmcharts.com/compare/express?minimal=true
-[npm-install-size-image]: https://badgen.net/packagephobia/install/express
-[npm-install-size-url]: https://packagephobia.com/result?p=express
-[npm-url]: https://npmjs.org/package/express
-[npm-version-image]: https://badgen.net/npm/v/express
