@@ -185,6 +185,8 @@ app.get("/", function (req, res) {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// JOINUS Project - Github
+
 app.get("/", function (req, res) {
   let q = "SELECT Count(*) AS count FROM users";
 
@@ -192,5 +194,16 @@ app.get("/", function (req, res) {
     if (err) throw err;
     let count = result[0].count;
     res.render("index", { count: count });
+  });
+});
+
+app.post("/register", function (req, res) {
+  let q = "INSERT INTO users SET ?";
+  let person = { email: req.body.email };
+  connnection.query(q, person, function (err, results, fields) {
+    if (err) throw err;
+    console.log(`Email added`);
+    res.redirect("/");
+    console.log(`Going back home`);
   });
 });
